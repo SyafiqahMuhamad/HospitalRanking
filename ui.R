@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 
-outcome_data=read.csv(file = "D:/New folder/SYAFIQAH/SEM 4 WIE170036/WIE2003- DATA SCIENCE/Shiny App/hospital/outcome-of-care-measures.csv",stringsAsFactors = F)
+outcome_data=read.csv("outcome-of-care-measures.csv",stringsAsFactors = F)
 
 outcome_data=outcome_data[outcome_data[,6]!='Not Available',]
 outcome_data=outcome_data[outcome_data[,7]!='Not Available',]

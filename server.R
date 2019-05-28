@@ -3,7 +3,7 @@ library(ggplot2)
 library(dplyr)    
 library(tidyr)
 
-outcome_data=read.csv(file = "D:/New folder/SYAFIQAH/SEM 4 WIE170036/WIE2003- DATA SCIENCE/Shiny App/hospital/outcome-of-care-measures.csv",stringsAsFactors = F)
+outcome_data=read.csv("outcome-of-care-measures.csv",stringsAsFactors = F)
 
 
 names(outcome_data)=c('Hospital',"Address","City","State","ZIP","Heart Attack","Heart Failure","Pneumonia")
